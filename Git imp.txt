@@ -1,13 +1,24 @@
 git pull --rebase origin main
-git remote add origin https://github.com/Tanmoy037/Terraform-learning-.git
+git remote add origin <github-repository>
 git branch -m main               ---rename current branch
-git branch  ---for checking branch
+git branch                       ---for checking branch
 git checkout master
 git remote add origin <git repo>
 git remote set-url origin <new repo>
 git push -f origin main
 
-git logs  ---shows every commit
-git show <commit id>  ---for showing description about the commit
-git diff  ---shows every changes have been made in commit
+git logs                         ---shows every commit
+git show <commit id>             ---for showing description about the commit
+git diff                         ---shows every changes have been made in commit
+ git config --global diff.tool vscode    ---To set a Visual Diff Tool in git we run the following command
+git log --oneline --reverse    --- We can use  this command to get a list of our commits
+git show <commit ID>           --- we can use this command  to inspect and view a commit.
+git show HEAD~1                --- where 1 is how many steps back from the current version we want to get back to
+git ls-tree HEAD~1             --- command gives snapshot from the last commit
+git restore --staged <file name>   --- to undo the <git add .> step  , or can say unstage.
+git clean                          --- to clean unstracked files
+git undo                           ---  command which will undo the last commit
+git restore --source=HEAD~1 <file-name>  --- for undo last commit of spacefic
+
+
 
