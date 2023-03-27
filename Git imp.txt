@@ -10,7 +10,7 @@ git push -f origin main
 git logs                         ---shows every commit
 git show <commit id>             ---for showing description about the commit
 git diff                         ---shows every changes have been made in commit
- git config --global diff.tool vscode    ---To set a Visual Diff Tool in git we run the following command
+git config --global diff.tool vscode    ---To set a Visual Diff Tool in git we run the following command
 git log --oneline --reverse    --- We can use  this command to get a list of our commits
 git show <commit ID>           --- we can use this command  to inspect and view a commit.
 git show HEAD~1                --- where 1 is how many steps back from the current version we want to get back to
