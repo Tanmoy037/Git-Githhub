@@ -19,6 +19,9 @@ git restore --staged <file name>   --- to undo the <git add .> step  , or can sa
 git clean                          --- to clean unstracked files
 git undo                           ---  command which will undo the last commit
 git restore --source=HEAD~1 <file-name>  --- for undo last commit of spacefic
+git restore --staged --worktree <your-file> <your-file> <your-file> <your-file> 
+
+                                        ----To discard the changes you've made to the files listed in the git status output and remove them from the staging area so that they won't be committed, you can use the git restore command with the --staged and --worktree options. This will remove the changes made to the listed files from both the staging area and the working directory. Note that this command will permanently discard the changes made to the files, so make sure you've saved any changes you want to keep before running it.
 
 
 
