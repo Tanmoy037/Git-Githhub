@@ -4,7 +4,7 @@ git branch -m main               ---rename current branch
 git branch                       ---for checking branch
 git checkout master
 git remote add origin <git repo>
-git remote set-url origin <new repo>
+git remote set-url origin <new repo>   ---For adding new url into git
 git push -f origin main
 
 git logs                         ---shows every commit
@@ -26,6 +26,5 @@ git restore --staged --worktree <your-file> <your-file> <your-file> <your-file>
                                     --staged and --worktree options. This will remove the changes made to the listed files from both the staging area and 
                                     the working directory. Note that this command will permanently discard the changes made to the files, so make sure you've 
                                     saved any changes you want to keep before running it.
-
 
 
