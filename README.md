@@ -1,2 +1,2 @@
 # Git-Githhub
-Sharing my Git-Github knowledge here.
+Sharing my Git-Github learnings here.
