@@ -7,7 +7,7 @@ git remote add origin <git repo>
 git remote set-url origin <new repo>   ---For adding new url into git
 git push -f origin main
 
-git logs                         ---shows every commit
+git log                          ---shows every commit
 git show <commit id>             ---for showing description about the commit
 git diff                         ---shows every changes have been made in commit
 git config --global diff.tool vscode    ---To set a Visual Diff Tool in git we run the following command
