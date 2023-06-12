@@ -28,6 +28,4 @@ git restore --staged --worktree <your-file> <your-file> <your-file> <your-file>
                                     saved any changes you want to keep before running it.
 
 
-git rm --cached <file_name>         ---The git rm --cached <file_name> command is used to remove a file from the Git index (also known as the staging area) without deleting the file from your local filesystem. This means that the file will be untracked and ignored by Git going forward.
-
-To use this command, replace <file_name> with the name of the file you want to remove from the index.
+git rm --cached <file_name>         ---The git rm --cached <file_name> command is used to remove a file from the Git index (also known as the staging area)                                           without deleting the file from your local filesystem. This means that the file will be untracked and ignored by Git going                                         forward.To use this command, replace <file_name> with the name of the file you want to remove from the index.
