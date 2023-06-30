@@ -1,4 +1,4 @@
-git pull --rebase origin main
+git pull --rebase origin main                 ---command to rebase all commits in main branch
 git remote add origin <github-repository>     ---command to add your remote repository link in your system git
 git branch -m main               ---rename current branch
 git branch                       ---for checking branch
